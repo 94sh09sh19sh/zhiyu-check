@@ -1,0 +1,6 @@
+{
+  "target": "zhiyu-check",
+  "hooks": [
+    { "event": "PreToolUse", "matcher": "Write|Edit|MultiEdit|NotebookEdit|Bash|PowerShell", "script": "zhiyu-check.js", "timeout": 10, "statusMessage": "檢查支語用詞" }
+  ]
+}
